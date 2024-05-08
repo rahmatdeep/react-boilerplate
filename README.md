@@ -53,6 +53,8 @@ project-name/
 
 - **`/pages`**: This folder contains all the page components of your application. Each page component corresponds to a route.
 
+- **`/components`**: This folder contains all the components which are unique and may or may not utilise files from the `components/ui` directory.
+
 - **`/components/ui`**: This sub-folder inside the `components` directory houses reusable UI components like buttons, text inputs, and other UI elements.
 
 - **`/hooks`**: Custom React hooks used throughout the application are placed in this folder. This helps in reusing logic and maintaining clean code.
