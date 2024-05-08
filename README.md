@@ -14,29 +14,41 @@ This React Boilerplate is structured to provide a clean and understandable frame
 
 Below is an outline of the folder structure that this boilerplate recommends:
 
-/react-boilerplate
-|-- /src
-|-- /components
-|-- /ui
-|-- Button.jsx
-|-- TextInput.jsx
-|-- ...
-|-- /hooks
-|-- useCustomHook.jsx
-|-- ...
-|-- /pages
-|-- HomePage.jsx
-|-- AboutPage.jsx
-|-- ...
-|-- /services
-|-- api.js
-|-- context.js
-|-- ...
-|-- /utils
-|-- helperFunctions.js
-|-- ...
 
-
+project-name/
+│
+├── src/
+│   ├── components/
+│   │   ├── ui/
+│   │   │   ├── Button.jsx
+│   │   │   ├── TextInput.jsx
+│   │   │   └── ...
+│   │   └── ...
+│   │
+│   ├── hooks/
+│   │   ├── useCustomHook1.js
+│   │   ├── useCustomHook2.js
+│   │   └── ...
+│   │
+│   ├── pages/
+│   │   ├── Page1.jsx
+│   │   ├── Page2.jsx
+│   │   └── ...
+│   │
+│   ├── services/
+│   │   ├── ApiService.js
+│   │   ├── ContextService.js
+│   │   └── ...
+│   │
+│   ├── utils/
+│   │   ├── utilFunction1.js
+│   │   ├── utilFunction2.js
+│   │   └── ...
+│   │
+│   ├── App.js
+│   └── index.js
+│
+└── README.md
 
 - **`/pages`**: This folder contains all the page components of your application. Each page component corresponds to a route.
 
