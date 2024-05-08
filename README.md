@@ -14,7 +14,7 @@ This React Boilerplate is structured to provide a clean and understandable frame
 
 Below is an outline of the folder structure that this boilerplate recommends:
 
-
+```
 project-name/
 │
 ├── src/
@@ -49,6 +49,7 @@ project-name/
 │   └── index.js
 │
 └── README.md
+```
 
 - **`/pages`**: This folder contains all the page components of your application. Each page component corresponds to a route.
 
