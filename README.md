@@ -20,33 +20,33 @@ project-name/
 ├── src/
 │   ├── components/
 │   │   ├── ui/
-│   │   │   ├── Button.jsx
-│   │   │   ├── TextInput.jsx
+│   │   │   ├── Button.tsx
+│   │   │   ├── TextInput.tsx
 │   │   │   └── ...
 │   │   └── ...
 │   │
 │   ├── hooks/
-│   │   ├── useCustomHook1.js
-│   │   ├── useCustomHook2.js
+│   │   ├── useCustomHook1.ts
+│   │   ├── useCustomHook2.ts
 │   │   └── ...
 │   │
 │   ├── pages/
-│   │   ├── Page1.jsx
-│   │   ├── Page2.jsx
+│   │   ├── Page1.tsx
+│   │   ├── Page2.tsx
 │   │   └── ...
 │   │
 │   ├── services/
-│   │   ├── ApiService.js
-│   │   ├── ContextService.js
+│   │   ├── ApiService.ts
+│   │   ├── ContextService.ts
 │   │   └── ...
 │   │
 │   ├── utils/
-│   │   ├── utilFunction1.js
-│   │   ├── utilFunction2.js
+│   │   ├── utilFunction1.ts
+│   │   ├── utilFunction2.ts
 │   │   └── ...
 │   │
-│   ├── App.js
-│   └── index.js
+│   ├── App.tsx
+│   └── index.tsx
 │
 └── README.md
 ```
@@ -84,13 +84,15 @@ If you would like to contribute to the project, please follow these steps:
    git checkout -b feature/AmazingFeature
    ```
 3. **Commit your Changes**: Make the necessary changes or additions to the project and commit them. Try to write clear and concise commit messages.
-bash
+   bash
+
 ```bash
 git commit -m 'Add some AmazingFeature'
 ```
 
 4. **Push to the Branch**: Push your changes to your GitHub repository.
-bash
+   bash
+
 ```bash
 git push origin feature/AmazingFeature
 ```
@@ -100,4 +102,5 @@ git push origin feature/AmazingFeature
 Thank you for considering contributing to the project, and we look forward to your contributions!
 
 ## License
-Distributed under the MIT License. 
+
+Distributed under the MIT License.
